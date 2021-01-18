@@ -1,0 +1,338 @@
+.table-search-box {
+  width: 35%;
+  float: right; }
+  .table-search-box > .search-select {
+    width: 35%; }
+  .table-search-box > .search-box {
+    width: 65%; }
+
+.main {
+  margin: 0;
+  min-height: 780px;
+
+
+}
+nav{
+    width: 100%;
+}
+.favourite-icon{
+    position: absolute;
+    right: 0;
+    z-index: 3;
+    top: 0;
+    cursor: pointer;
+    color: lightgray;
+
+}
+.fav-show{
+    top: 2%;
+    right: 15%;
+}
+.home-products-header{
+    background-color: aliceblue;
+padding: 15px;
+color: lightslategray;
+font-style: italic;
+font-weight: bold;
+font-size: xx-large;
+margin: 30px 20px 10px;
+}
+.MuiPagination-ul{
+    justify-content: center;
+}
+.favourite-icon:hover{
+  transform:   perspective(1000px) translateZ(-10px) ;
+  color: red;
+  transition: .5s all ease-in-out;
+}
+
+.active-favourite-icon{
+    color: red;
+    transition: .5s all ease-in-out;
+}
+.home-container{
+    background-color: white;
+}
+.profile-list li {
+    float: left;
+    list-style: none;
+    width: 25%;
+    font-size :16px;
+    font-size : 100%
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .dropdown li >.nav-link {
+    color: black;
+}
+.navbar-dark .navbar-nav .dropdown li >.nav-link:hover {
+    color: white;
+    background-color: black;
+}
+/*# sourceMappingURL=main.css.map */
+.navbar .nav-item:hover >.dropdown-menu{ display: block; }
+.menubar{
+    float: left;
+    background-color: rgb(243, 243, 243);
+
+    width: 100%;
+    min-height: 50px;
+    margin-right: 20px;
+
+
+}
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+overflow: auto;;
+    background-color: rgba(124, 124, 124, 0.5); /* Black background with opacity */
+    z-index: 3; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+  .carousel-caption{
+      color: rgb(128, 128, 128);
+  }
+  .carousel-item{
+      height: 100%;
+
+  }
+  .carousel-inner{
+      height: 100%;
+  }
+  .mycard:hover{
+
+
+box-shadow:-10px 10px 10px lightgray ;
+    transition: ease-in-out all .5s ;
+    transform: perspective(1500px) translate3d(0,0,10px)
+  }
+  .sign-in-form{
+    margin: 50px auto;
+    background-color: white;
+    padding: 25px;
+    width: 40%;
+    min-width: 280px;
+  }
+  .active-img{
+      border: 2px solid rgb(218, 218, 218);
+      border-radius: 10px;
+      padding: 5px;
+      transform: perspective(1500px) translate3d(0, 0, 270px);
+  }
+  .mycard{
+      perspective: 500px;
+      width: "100%";
+       background-color: "white" ;
+  }
+  .dialog{
+    border:none;
+    z-index: 3;
+    min-width: 400px;
+    top: 20%;
+
+  }
+  .tree-select-div{
+    overflow-y: scroll;
+    height: 150px;
+    display: block;
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+}
+.tree-select-div option:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+#app{
+    background-color: rgb(226, 226, 226);
+}
+.menu-container{
+position: fixed;
+top: 15;
+left: 0;
+z-index: 2;
+float: left;
+}
+.menu-container:focus{
+  border: none;
+}
+
+.menu-button{
+
+    width: 50px;
+    padding: 3px;
+}
+.my-button{
+    background-color: #bc6c25;
+    color: white;
+    border: none;
+
+}
+.my-button:hover{
+    background-color: white;
+    color: #bc6c25;
+}
+
+.profile-link{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+    font-weight: bold;
+}
+.profile-link:hover{
+    border-bottom: 7px #bc6c25 solid;
+    text-decoration: none;
+    color: #020202;
+
+}
+.underline-active{
+    border-bottom: 7px #bc6c25 solid;
+    color: #020202;
+}
+
+.tree-list{
+    list-style: none;
+    padding-left: 16px;
+}
+.menubar .nav-link{
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+    font-size: 18px;
+}
+.menubar li{
+    position: relative;
+
+}
+.menubar li:hover{
+    color: white;
+}
+.menubar  i {
+    cursor: pointer;
+float: right;
+padding: 18px 18px  18px 18px;
+position: absolute;
+right: 0px;
+top: 2px;
+color: black;
+}
+
+.MuiStepIcon-root.MuiStepIcon-completed{
+  color: green;
+}
+.bg-light{
+    background-color: #3B1F2B;
+    color: white;
+}
+.menubar li i:hover{
+    background-color: #606C38;
+    color: white;
+    border-radius: 50%;
+    transition: ease-in-out .5s all;
+}
+.menubar a:hover,.sidebar-active-link {
+    transition: ease-in-out .5s all;
+    background-color: #606C38;;
+    color: white;
+}
+.menubar .sidebar-active-link{
+
+    background-color: #606C38;;
+    color: white;
+}
+.search-list{
+    position: absolute;
+z-index: 10;
+background-color: white;
+width: 97%;
+border: 1px lightgray solid;
+border-top: none;
+border-radius: 3px;
+padding: 25px;
+}
+.search-list li{
+    list-style: none;
+}
+.search-list li a {
+    text-decoration: none;
+    color: rgb(27, 26, 26);
+    padding: 10px;
+    width: 100%;
+    display: inline-block;
+}
+.search-list li a:hover{
+    background-color: rgb(228, 228, 228);
+}
+.search-container{
+
+}
+.search-form{
+    width: 65%;
+}
+.search-form div {
+    position: relative;
+width: 88%;
+}
+.search-form > div > .search-input {
+    width: 97%;
+    padding: 20px;
+}
+.cart-button{
+    background-color: #383961;
+border-color: #383961;
+}
+.cart-button:hover{
+    transition: ease-in-out .5s all;
+    background-color: white;
+    color: #383961;
+
+}
+/*  Store Css */
+.card-header{
+  background-color: darkslategray;
+   color: white
+}
+.order-card .card-header{
+    cursor: pointer;
+
+}
+.main-container{
+    background-color: white;
+    min-height: 780px;
+    margin: 20px 10%;
+    padding: 15px;
+
+
+
+}
+
+.loading {
+    margin: 25% 50%;
+    background-color: rgb(224, 224, 224);
+
+}
+.content-wrapper{
+  background-color: rgb(244, 244, 244);
+}
+.example-enter{
+ animation: 1s slideInLeft ease;
+}
+.example-exit{
+    animation: 1s slideOutLeft ease;
+   }
+.link{
+    text-decoration: none;
+    color: #020202;
+}
+.discount-badge{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
